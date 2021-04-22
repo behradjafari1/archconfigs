@@ -9,6 +9,7 @@ export EDITOR="vim"
 export TERMINAL="st"
 export BROWSER="firefox"
 export FILEMGR="lf"
+export STATUSBAR="dwmblocks"
 
 
 if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
